@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 /* start reset
 /* *{} all elements */
 /* inline este mai mare decat # este mai mare de . este mai mare decat elemenetul*/
@@ -16,6 +17,7 @@ ul, ol {
 a {
     text-decoration: none;
 }
+
 
 
 /* la inceputul proiectului e bine sa stabilim font-size de 10px*/
@@ -45,3 +47,28 @@ rem= 1 rem = font-size definit pe elementul HTML
 
 
 /* End reset */
+
+.button {
+    font-size: 1.6rem;
+    line-height: 1.6em;
+    padding: 1em 1.5em;
+    background-color: #58A4B0;
+    min-width: 240px;
+    display: inline-flex;
+    font-weight:500;
+    font-family: 'Roboto', sans-serif;
+    color: honeydew;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    border: 2px solid #25ced1;
+    transition: all 0.3s ease-out;
+
+}
+/*margin padding, width, height NU functioneaza pe elem inline, doar pe display:inline-block*/
+
+.button:hover {
+    background-color: ivory;
+    color: #25ced1;
+    
+}
