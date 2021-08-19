@@ -1,0 +1,47 @@
+/* start reset
+/* *{} all elements */
+/* inline este mai mare decat # este mai mare de . este mai mare decat elemenetul*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul, ol {
+    list-style-type: none;
+}
+/*ca sa nu aiba lista bulinele*/
+
+/*ca sa nu fie link-urile subliniate*/
+a {
+    text-decoration: none;
+}
+
+
+/* la inceputul proiectului e bine sa stabilim font-size de 10px*/
+html {
+    font-size: 10px;
+}
+
+
+input:focus {
+    box-shadow: unset;
+    outline: unset;
+    border: unset;
+
+}
+/*se scrie comanda asta ca sa sterg border, padding si margin setate automat de browser*/
+/*
+px = unitate fixa. 1px=1LED din monitor
+% =1% din parintele direct
+vh = 1 vh este 1% din viewport height (cat este dimensiunea fizica ca browserului, atata este vh)
+ex. h1 {
+    font-size=1vh;}
+vw = 1vw este 1 % din viewport height
+(ex: cand marim sau micsoram broswerul se schimba marimea h1)
+em = 1em este font-size in px a celui mai apropiat parinte care are font-size definit.
+
+rem= 1 rem = font-size definit pe elementul HTML
+
+
+/* End reset */
