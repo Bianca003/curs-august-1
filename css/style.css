@@ -72,3 +72,6 @@ rem= 1 rem = font-size definit pe elementul HTML
     color: #25ced1;
     
 }
+div {
+    display: block;
+}
