@@ -75,3 +75,26 @@ rem= 1 rem = font-size definit pe elementul HTML
 div {
     display: block;
 }
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1170px;
+    margin:auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.col-md-6 {
+    padding-left: 15px;
+    padding-right: 15px;
+    width:50%
+}
+
+/*
+responsive @media (max-width: valoare)
+<= 1024px - tablet
+< 767px - mobile
+
+mobile @media (min-768px
